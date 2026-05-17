@@ -102,4 +102,3 @@ Task 1 实验报告见：
 
 - [Google Drive](https://drive.google.com/file/d/1XR98f6fDGAXG2g9CKBrVLxt7xh-hWrS9/view?usp=drive_link)
 
-本地最佳权重路径为 `checkpoints/task1/resnet18_pretrained_lr1e-3_bs32/best.pt`，权重文件不直接提交到 GitHub。
