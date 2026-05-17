@@ -1,0 +1,33 @@
+experiment_name: swanlab_local_resnet18_pretrained_lr1e-3_bs32
+seed: 42
+data_root: data
+output_dir: runs/task1
+checkpoint_dir: checkpoints/task1
+
+model:
+  name: resnet18
+  num_classes: 102
+  pretrained: true
+  attention: none
+  freeze_backbone: false
+
+train:
+  epochs: 30
+  batch_size: 32
+  num_workers: 0
+  image_size: 224
+  optimizer: adamw
+  learning_rate: 0.001
+  backbone_learning_rate: 0.0001
+  head_learning_rate: 0.001
+  weight_decay: 0.0001
+  scheduler: cosine
+  label_smoothing: 0.1
+  grad_clip_norm: 1.0
+  amp: false
+  early_stop_patience: 8
+
+logging:
+  backend: swanlab
+  mode: local
+  project: dl-spatial-hw2-task1

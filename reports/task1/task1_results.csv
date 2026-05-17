@@ -1,0 +1,5 @@
+experiment,best_epoch,best_val_acc,test_acc,test_top5,best_weights,curves
+resnet18_pretrained_lr1e-3_bs32,25,0.9441176475263109,0.9092535371605139,0.9733289965848105,checkpoints/task1/resnet18_pretrained_lr1e-3_bs32/best.pt,runs/task1/resnet18_pretrained_lr1e-3_bs32/curves.png
+resnet18_pretrained_lr3e-4_bs64,30,0.9137254904298221,0.8811188811188811,0.9684501544966662,checkpoints/task1/resnet18_pretrained_lr3e-4_bs64/best.pt,runs/task1/resnet18_pretrained_lr3e-4_bs64/curves.png
+resnet18_scratch_lr1e-3_bs32,29,0.4676470588235294,0.4117742722587753,0.7074321027906334,checkpoints/task1/resnet18_scratch_lr1e-3_bs32/best.pt,runs/task1/resnet18_scratch_lr1e-3_bs32/curves.png
+seresnet18_pretrained_lr1e-3_bs32,27,0.9313725494870952,0.8918523337127988,0.9702390632623191,checkpoints/task1/seresnet18_pretrained_lr1e-3_bs32/best.pt,runs/task1/seresnet18_pretrained_lr1e-3_bs32/curves.png
